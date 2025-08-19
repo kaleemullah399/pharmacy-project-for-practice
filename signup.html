@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <main>
+        <h2>SignUp Here!</h2>
+        <form action="" id="form1">
+            <label for="fname">
+                First Name:</label>
+                <input type="text" placeholder="Enter Your Name" id="fname"><br>
+            
+            <label for="lname">Second Name:</label>
+                <input type="text" placeholder="Enter your Second Name:" id="lname"><br>
+          
+            <label for="email">Email:</label>
+                <input type="email" placeholder="Enter Email Here" id="email"><br>
+                <label for="password">password:</label>
+                <input type="password" placeholder="Enter Your password"><br>
+        
+            <label for="dob">Date of Birth:</label>
+                <input type="datetime" placeholder="Enter Your Date of Birth" id="dob"><br>
+            
+            <input type="submit" value="submit" id="button" onclick="Signpage()"><br>
+            <a href="#"> Sign In</a>
+        </form>
+        <script>
+            function Signpage(){
+                window.open('signin.html')
+            }
+        </script>
+    </main>
+</body>
+</html>
